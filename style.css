@@ -1,0 +1,110 @@
+:root {
+    --color1: #05b1b1;
+    --color2: #3870b1;
+    --color3: #0d6efd;
+
+}
+body, .rowSch{
+    font-family: Arial;
+    background-color: #f0f0f0;
+    width: 390px;
+
+}
+.header{
+    background: url("../img/pattern.png"), var:(--color1); /* Old browsers */
+    background: url("../img/pattern.png"), -moz-linear-gradient(left,  var(--color1) 0%, var(--color2) 100%); /* FF3.6-15 */
+    background: url("../img/pattern.png"), -webkit-linear-gradient(left,  var(--color1) 0%, var(--color2) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: url("../img/pattern.png"), linear-gradient(to right, var(--color1) 0%, var(--color2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color2),GradientType=1 ); /* IE6-9 */
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
+.mainInput{
+    background: url("../img/pattern.png"), var:(--color1); /* Old browsers */
+    background: url("../img/pattern.png"), -moz-linear-gradient(left,  var(--color1) 0%, var(--color3) 100%); /* FF3.6-15 */
+    background: url("../img/pattern.png"), -webkit-linear-gradient(left,  var(--color1) 0%, var(--color3) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: url("../img/pattern.png"), linear-gradient(to right, var(--color1) 0%, var(--color3) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=var(--color1), endColorstr=var(--color3),GradientType=1 ); /* IE6-9 */
+    background-size: contain;
+    padding: 15px;
+    margin: 0;
+}
+.battery, .signal, .wifi, .plus, .dot3{
+    padding: 0;
+    width: 30px;
+    box-sizing: content-box;
+    text-align: right;
+}
+.row>* {
+    flex-shrink: 0;
+    max-width: 100%;
+    margin-top: var(--bs-gutter-y);
+}
+#date-time{
+    font-size: 16px;
+    margin: 6px 0 0 0;
+    text-align: right;
+}
+.time, .time{
+    padding: 0 10px 0 0;
+    width: 40px;
+}
+#date-time.centered{
+    width: 40px;
+    box-sizing: content-box;
+}
+.search{
+    text-align: center;
+}
+.dots{
+    width: 65%;
+}
+.icon{
+    width: fit-content;
+    padding: 5px;
+}
+
+.btn{
+    background-color: white;
+    border-radius: 15%;
+    height: 4em;
+    width: 4em;
+}
+.tableBtn{
+    padding: 5px;
+}
+a.btn.btn-primary {
+    padding: 7px 0 0 0;
+    border: 0;
+}
+h2.color1{
+    padding: 6px 0 0 0;
+    justify-content: center;
+    margin: 5px;
+    font-size: small;
+}
+.item1{
+    background-color: #f0f0f0;
+    padding: 2px;
+    margin: 2px;
+    border: none;
+}
+ul.list-group-horizontal{
+    border: 1px solid #5c636a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3px;
+}
+.item2{
+    width: 285px;
+}
+.img1{
+    display: flex;
+}
+.img1 img{
+    text-align: right;
+}
+p{
+    margin: 0;
+    width: 100%;
+}
